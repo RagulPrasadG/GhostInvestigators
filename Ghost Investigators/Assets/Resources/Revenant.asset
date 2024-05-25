@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86dc0de9648d96f4dba77b7df75a7b45, type: 3}
+  m_Name: Revenant
+  m_EditorClassIdentifier: 
+  ghostType: 0
+  ghostName: Revenant
+  roamingRadius: 4.63
+  LOSSpeed: 3
+  patrolSpeed: 1
+  modelFlickerTime: 13.05
+  maxFlickerTime: 10.05
+  fieldOfView: 38
+  huntingSanity: 50
+  ghosteventSanity: 98.5
+  ghostInteractionSanity: 100
+  activity: 0
+  eventDuration: 5
+  interactionRate: 11.93
+  throwforce: 3.54
+  throwCoolDown: 2
+  evidences:
+  - evidenceType: 0
+    probablityToReveal: 50
+  - evidenceType: 1
+    probablityToReveal: 31.4
